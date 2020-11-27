@@ -13,6 +13,6 @@ print("Sort by id using function")
 print(students)
 
 #sort by name using lambda(1 line function)
-print("Sort by name using lambda(1 line function)")
+print("ort by name using lambda(1 line function)")
 students.sort(key = lambda person : person["name"])
 print(students)
