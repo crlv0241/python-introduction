@@ -11,8 +11,7 @@ class Bus():
 
   def vacant_seats(self):
     return self.capacity - len(self.passengers)
-
-
+    
 Jasper_1 = Bus(3)
 
 family = ["Carl","Jhen","Father","Masha"]
