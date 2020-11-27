@@ -23,9 +23,9 @@
  #class OOP
 
 class Point():
-  def __init__ (self,x,y):
-    self.xaxis = x
-    self.yaxis = y
+  def __init__ (name,x,y):
+    name.xaxis = x
+    name.yaxis = y
 
 p = Point(2,4)
 print(p.xaxis, p.yaxis)
